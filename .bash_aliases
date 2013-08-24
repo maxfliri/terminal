@@ -1,5 +1,5 @@
 # Copy to home folder and add to .bashrc:
-# if [[ -a ~/.bash_aliases ]]; then . ~/.bash_aliases; fi
+# [[ -a ~/.bash_aliases ]] && source ~/.bash_aliases
 
 # common ls aliases
 alias l="ls -FGl"
